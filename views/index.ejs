@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="/js/jquery.js"></script>
+    <script src="/js/xuly.js"></script>
+    <script>
+
+    </script>
+</head>
+<body>
+    <div id="content">
+        <div id="loginForm">
+            <h3>Dang ký tên</h3>
+            <input type="text" id="textUsername">
+            <input type="button" value="Đăng ký" id="btn_dangky">
+        </div>
+        <div id="chatForm">
+            <div id="left">
+                <div id="boxTitle">Những người đang online</div>
+                <div id="boxContent">
+                    <div class="useronline">Trung Dung</div>
+                </div>
+            </div>
+            <div id="right">
+                <div id="sayHi">
+                    Xin Chào <span id="currenUser">Dung</span>
+                    <input type="button" id="btnLogout" value="Thoat">
+                </div>
+                <div id="listMessages">
+
+                </div>
+                <div id="chatSend">
+                    <input type="text" id="message">
+                    <input type="button" id="send" value="Gửi">
+                </div>
+            </div>
+            <div class="msg_box">
+                <div id="box_name">
+                    dung
+                </div>
+                <div class="msg_box_content">
+                    <div class="msg_main"></div>
+                    <div>
+                        <form id="target">
+                            <input type="text" class="set_message"/>
+                            <input type="submit" value="Send">
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

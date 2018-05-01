@@ -1,0 +1,77 @@
+body{
+    background-color: #ebeef4;
+}
+#content{
+    width: 1024px;
+    margin: auto;
+    border: 1px solid #e1e2e1;
+}
+#left{
+    width: 30%;
+    float: left;
+    background-color: #c2f3ff;
+}
+#right{
+    width: 70%;
+    float: right;
+    background-color: aqua;
+}
+#boxTitle{
+    width: 100%;
+    text-align: center;
+    border-bottom: 1px solid #e1e2e1;
+    padding: 10px;
+}
+#boxContent{
+    width: 100%;
+    padding: 20px;
+}
+.useronline{
+    padding: 5px;
+}
+#sayHi{
+    text-align: right;
+}
+#listMessages{
+    height: 300px;
+    background-color: #c2f3ff;
+    padding: 10px;
+}
+#chatSend{
+    text-align: right;
+}
+#message{
+    width: 88%;
+    height: 50px;
+}
+#send{
+    width: 10%;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+}
+.ms_me{
+    text-align: right;
+    width: 100%;
+}
+.msg_box{
+    width: 30%;
+    border: 1px solid #e1e2e1;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    float: left;
+}
+#box_name{
+    width: 100%;
+    line-height: 30px;
+    background-color: #4080ff;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    color: #fff;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.msg_main{
+    height: 400px;
+    width: 100%;
+}
